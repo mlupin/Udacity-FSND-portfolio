@@ -7,6 +7,8 @@
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -49,42 +51,45 @@
 							<h3 class="text-muted">Featured Work</h3>
 						</div>
 					</div>
+					<!-- First Row of Projects -->
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/283x180" alt="Movie Trailer Website photo">
+							<img class="image-responsive" src="http://placehold.it/283x180" alt="Movie Trailer Website photo" data-toggle="modal" data-target="#project1">
 							<h2>Movies</h2>
 							<p><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio">
+							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio" data-toggle="modal" data-target="#project2">
 							<h2>Portfolio</h2>
 							<p><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio">
+							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio" data-toggle="modal" data-target="#project5">
 							<h2>Resume</h2>
 							<p><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 					</div>
+					<!-- Second Row of Projects -->
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/283x180" alt="Sample App">
+							<img class="image-responsive" src="http://placehold.it/283x180" alt="Sample App" data-toggle="modal" data-target="#project4">
 							<h2><a href="https://sample-app-rails-tutorial-e4.herokuapp.com/">Sample App</a></h2>
 							<p><a href="https://github.com/mlupin/sample_app">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio">
+							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio" data-toggle="modal" data-target="#project5">
 							<h2>Rock Dodger</h2>
 							<p><a href="https://github.com/mlupin/javascript-rock-dodger-bootcamp-prep-000">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio">
+							<img class="image-responsive" src="http://placehold.it/283x180" alt="Portfolio" data-toggle="modal" data-target="#project6">
 							<h2>Arcade Game</h2>
 							<p><a href="https://github.com/mlupin/frontend-nanodegree-arcade-game">GitHub</a></p>
 						</div>
 					</div>
 				</section>
 			</main>
+			<!-- Footer -->
 			<footer>
 				<div class="container">
 					<div class="row">
@@ -99,6 +104,108 @@
 				</div>
 			</footer>
 			
+		<!-- Modal Movies-->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Movies Trailer Website</h4>
+                </div>
+                <div class="modal-body">
+                    This was my first project in Udacity's Full Stack Wed Developer Nanodegree. The purpose of this project was to learn how to create a website using server-side Python code.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Modal Portfolio-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    This was my second project in Udacity's Full Stack Wed Developer Nanodegree. The purpose of this project was to replicate a mockup website design in HTML, CSS, and using Bootstrap. The focus was to create a well designed responsive website to showcase projects.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Resume-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                </div>
+                <div class="modal-body">
+                    This was a project that was part of the Udacity's JavaScript Basics course. The purpose of this project was to practice basic JavaScript skills such as loops, functions and DOM manipulation. 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Sample App-->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sample App</h4>
+                </div>
+                <div class="modal-body">
+                    This is the sample application for Ruby on Rails Tutorial: Learn Web Development with Rails by Michael Hartl. The purpose of building this application was to learn the essentials of the Rails framework, including MVC and REST, generators, migrations, routing, and embedded Ruby
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Rock Dodger-->
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Rock Dodger</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    	This was another project that part of Udacity's JavaScript course. The purpose of this project was to gain experience with object-oriented programming.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Arcade Game-->
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Arcade Game</h4>
+                </div>
+                <div class="modal-body">
+                    This was my first project as part of my Flatiron School's Bootcamp Prep. The purpose of this project was to use JavaScript to manipulate the DOM.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 	</body>
 </html>	
