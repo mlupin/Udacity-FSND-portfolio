@@ -4,6 +4,9 @@ body {
 	color: #23x49;
 }
 
+h2 {
+	text-transform: uppercase;
+}
 .text-muted {
 	color: #2d3x49;
 }
@@ -11,7 +14,9 @@ body {
 .text-thin {
 	font-weight: 100;
 }
-
+.black {
+	color: black;
+}
 /* Header */
 
 header hr {
