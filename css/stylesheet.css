@@ -1,3 +1,7 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -7,6 +11,13 @@ body {
 h2 {
 	text-transform: uppercase;
 }
+
+img {
+	display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
 .text-muted {
 	color: #2d3x49;
 }
@@ -22,6 +33,13 @@ h2 {
 header hr {
 	border-top: 2px solid grey;
 	max-width: 100%;
+}
+
+.logo {
+	display: inline;
+	padding: 10px;
+  width: 125px;
+  border-radius: 50%;
 }
 
 /* About Me Section */
@@ -42,9 +60,72 @@ header hr {
 }
 
 #project img {
-	align-self: center;
+	text-align: center;
 }
-/* Footer */
 
+.title, .git {
+	text-align: center;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+
+/* Footer */
+[class*="zocial-"]:before {
+  color: darkblue;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 2px 2px 2px lightblue;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+ 	color: #3d85c6;
+}
+
+footer {
+  margin: 0 auto;
+  width: 800px;
+}
+
+div#social a {
+ 	margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+ 	margin: 0;
+}
+
+div#social {
+  line-height: 2em;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  
+}
+
+@media only screen and (max-width:900px) {
+  
+}
+
+@media only screen and (max-width: 750px) {
+ 
+}
 
 

@@ -8,16 +8,19 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 		<link href="carousel-fit.css" rel="stylesheet" />
+		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
+
 		<script src="carousel-fit.js"/></script/>
 		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<header>
 				<div class="row">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						<img src="images/logo.png" alt="ML site logo">
+						<img class="logo" src="images/marina.jpg" alt="ML site logo">
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right text-uppercase">
 						<h1 class="text-thin">Marina Lupin</h1>
@@ -56,54 +59,48 @@
 					<!-- First Row of Projects -->
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/365x180" alt="Movie Trailer Website photo" data-toggle="modal" data-target="#project1">
-							<h2>Movies</h2>
-							<p><a href="https://github.com/mlupin">GitHub</a></p>
+							<img class="image-responsive" src="images/movie-site-01.png" alt="Movie Trailer Website photo" data-toggle="modal" data-target="#project1">
+							<h2 class="title">Movies</h2>
+							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="http://placehold.it/365x180" alt="Portfolio" data-toggle="modal" data-target="#project2">
-							<h2>Portfolio</h2>
-							<p><a href="https://github.com/mlupin">GitHub</a></p>
+							<h2 class="title">Portfolio</h2>
+							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/365x180" alt="Portfolio" data-toggle="modal" data-target="#project5">
-							<h2>Resume</h2>
-							<p><a href="https://github.com/mlupin">GitHub</a></p>
+							<img class="image-responsive" src="images/resume-01.png" alt="Portfolio" data-toggle="modal" data-target="#project3">
+							<h2 class="title">Resume</h2>
+							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 					</div>
 					<!-- Second Row of Projects -->
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/365x180" alt="Sample App" data-toggle="modal" data-target="#project4">
-							<h2><a href="https://sample-app-rails-tutorial-e4.herokuapp.com/">Sample App</a></h2>
-							<p><a href="https://github.com/mlupin/sample_app">GitHub</a></p>
+							<img class="image-responsive" src="images/rails-app-01.png" alt="Sample App" data-toggle="modal" data-target="#project4">
+							<h2 class="title"><a href="https://sample-app-rails-tutorial-e4.herokuapp.com/">Sample App</a></h2>
+							<p class="git"><a href="https://github.com/mlupin/sample_app">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="http://placehold.it/365x180" alt="Portfolio" data-toggle="modal" data-target="#project5">
-							<h2>Rock Dodger</h2>
-							<p><a href="https://github.com/mlupin/javascript-rock-dodger-bootcamp-prep-000">GitHub</a></p>
+							<img class="image-responsive" src="images/rock-dodger-01.png" alt="Portfolio" data-toggle="modal" data-target="#project5">
+							<h2 class="title">Rock Dodger</h2>
+							<p class="git"><a href="https://github.com/mlupin/javascript-rock-dodger-bootcamp-prep-000">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="http://placehold.it/365x180" alt="Portfolio" data-toggle="modal" data-target="#project6">
-							<h2>Arcade Game</h2>
-							<p><a href="https://github.com/mlupin/frontend-nanodegree-arcade-game">GitHub</a></p>
+							<h2 class="title">Arcade Game</h2>
+							<p class="git"><a href="https://github.com/mlupin/frontend-nanodegree-arcade-game">GitHub</a></p>
 						</div>
 					</div>
 				</section>
 			</main>
 			<!-- Footer -->
 			<footer>
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h6>
-								<a href="#">Contact Me</a>
-								<a href="#">GitHub</a>
-								<a href="#">LinkedIn</a>
-							</h6>
-						</div>
-					</div>
-				</div>
+			    <div id="social">
+			      <a href="mailto:lupinmarina@gmail.com" class="zocial-gmail"></a>
+			      <a href="https://www.linkedin.com/in/lupinmarina/" class="zocial-linkedin"></a>
+			      <a href="https://github.com/mlupin" class="zocial-github"></a>
+			    </div>
 			</footer>
 			
 		<!-- Modal Movies-->
@@ -125,13 +122,13 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="First slide">
+								      <img class="responsive-image" src="images/movie-site-01.png" alt="First slide">
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Second slide">
+								      <img class="responsive-image" src="images/movie-site-02.png" alt="Second slide">
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Third slide">
+								      <img class="responsive-image" src="images/movie-site-03.png" alt="Third slide">
 								    </div>
 								  </div>
 
@@ -223,13 +220,13 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="First slide">
+								      <img class="responsive-image" src="images/resume-01.png" alt="First slide">
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Second slide">
+								      <img class="responsive-image" src="images/resume-02.png" alt="Second slide">
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Third slide">
+								      <img class="responsive-image" src="images/resume-03.png" alt="Third slide">
 								    </div>
 								  </div>
 
@@ -272,10 +269,10 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="First slide">
+								      <img class="responsive-image" src="images/rails-app-01.png" alt="First slide">
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Second slide">
+								      <img class="responsive-image" src="images/rails-app-02.png" alt="Second slide">
 								    </div>
 								    <div class="item">
 								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Third slide">
@@ -292,7 +289,7 @@
 								</div>
 
                 <div class="modal-body">
-                    This is the sample application for Ruby on Rails Tutorial: Learn Web Development with Rails by Michael Hartl. The purpose of building this application was to learn the essentials of the Rails framework, including MVC and REST, generators, migrations, routing, and embedded Ruby
+                    This is the sample application for Ruby on Rails Tutorial: Learn Web Development with Rails by Michael Hartl. The purpose of building this application was to learn the essentials of the Rails framework, including MVC and REST, generators, migrations, routing, and embedded Ruby.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -321,13 +318,13 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="First slide">
+								      <img class="responsive-image" src="images/rock-dodger-01.png" alt="First slide">
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Second slide">
+								      <img class="responsive-image" src="images/rock-dodger-02.png" alt="Second slide">
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="http://placehold.it/700x250" alt="Third slide">
+								      <img class="responsive-image" src="images/rock-dodger-03.png" alt="Third slide">
 								    </div>
 								  </div>
 
@@ -342,7 +339,7 @@
 
                 <div class="modal-body">
                     <p>
-                    	This was another project that part of Udacity's JavaScript course. The purpose of this project was to gain experience with object-oriented programming.
+                    	This was my first project as part of my Flatiron School's Bootcamp Prep. The purpose of this project was to use JavaScript to manipulate the DOM.
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -392,7 +389,7 @@
 								</div>
 
                 <div class="modal-body">
-                    This was my first project as part of my Flatiron School's Bootcamp Prep. The purpose of this project was to use JavaScript to manipulate the DOM.
+                    This was another project that part of Udacity's JavaScript course. The purpose of this project was to gain experience with object-oriented programming.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
