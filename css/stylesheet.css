@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-body {
+body  {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: #2d3c49;
@@ -21,6 +21,13 @@ body {
 img {
     display: block;
     margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container-fluid, .modal {
+    padding: 0 15px 0 15px;
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -30,7 +37,7 @@ header hr {
     max-width: 100%;
 }
 
-.header_title {
+.header-name, .header-role {
     text-transform: uppercase;
     font-weight: 100;
     text-align: right;
@@ -44,22 +51,22 @@ header hr {
 }
 
 /* About Me Section */
-.about_me {
+.about-me {
 	background: lightgrey;
 	padding: 0;
 	max-width: 100%;
 }
 
-.about_title {
+.about-me-title {
     text-align: center;
 }
 
-.about_me p {
+.about-me p {
 	padding: 0 10px 0 10px;
 }
 
 /* Projects */
-.section_title {
+.section-title {
     color: #7d97ad;
     font-weight: 200;
 }
@@ -68,13 +75,12 @@ header hr {
 	max-width: 100%;
 }
 
-.project_title {
+.project-title {
     text-transform: uppercase;
 }
 
-.project_title, .git {
+.project-title, .git {
 	text-align: center;
-
 }
 
 .image-responsive:hover {
@@ -95,14 +101,14 @@ footer {
     text-align: center;
 }
 
-div#social a {
+#social a {
  	margin: 0 1em 0 0;
 }
 
-div#social a:last-of-type {
+#social a:last-of-type {
  	margin: 0;
 }
 
-div#social {
+#social {
     line-height: 2em;
 }

@@ -9,33 +9,47 @@ body {
     line-height:  1.2em;
 }
 
-.about_me, .projects {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 
 @media screen and (max-width: 609px) {
-    .project_title, .git {
-        display: none;
+    .header-name {
+        font-size: 1.5em;
+    }
+    
+    .header-role,
+    .git {
+        font-size: 1em;
+    }
+
+    .logo {
+        height: 30%;
+    }
+
+    .modal {
+        max-height: 600px;
+        padding: 15px;
     }
 
     .projects img{
-        flex-flow: column wrap;
-        padding: 5px 5px 5px 5px;
+        padding: 5px;
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (min-width: 610px) and (max-width: 750px) {
     .logo {
         height: 50%;
         margin-right: 0.5em;
         padding: 0.5em;
     }
 
-    .header_title, .about_title, .section_title, .project_title {
+    .header-role {
+        font-size: 1em;
+    }
+
+    .about-me-title,
+    .section-title,
+    .project-title {
         margin-left: 0;
-        font-size: 1.3em;
+        font-size: 1.5em;
         vertical-align: bottom; 
     }
 }
