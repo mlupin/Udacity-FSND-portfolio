@@ -7,24 +7,26 @@
 		<title>Portfolio</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-		<link href="carousel-fit.css" rel="stylesheet" />
-		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		
+ <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
 		<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
 
-		<script src="carousel-fit.js"/></script/>
+		
 		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<header>
-				<div class="row">
+				<div id="header" class="row">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 						<img class="logo" src="images/marina.jpg" alt="ML site logo">
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right text-uppercase">
-						<h1 class="text-thin">Marina Lupin</h1>
-						<h4 class="text-thin">Web Developer</h4>
+						<h1 class="text-thin section__title">Marina Lupin</h1>
+						<h4 class="text-thin section__title">Web Developer</h4>
 					</div>
 				</div>
 				<div class="row">
@@ -35,11 +37,11 @@
 			</header>	
 			<main>
 				<!-- About Me Section -->
-				<section>
-					<div id="about-me" class="container">
+				<section class="about_me">
+					<div class="container">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<h3 class="text-center">About Me</h3>
+								<h3 class="text-center section__title">About Me</h3>
 								<hr>
 								<p>
 									Hi there, my name is Marina Lupin! I'm on a journey to find my true passion in programming and problem solving. I love applying creative and logical problem-solving skills to building  applications, learning new languages, and applying programming fundamentals to new projects! Currently, I am enrolled in Udacity's Full Stack Web Developer Nanodegree. Take a look around!
@@ -49,27 +51,27 @@
 						</div>
 					</div>
 				</section>
-				<section id="projects" class="container">
+				<section class="projects container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h3 class="text-muted">Featured Work</h3>
+							<h3 class="text-muted section__title">Featured Work</h3>
 						</div>
 					</div>
 					<!-- First Row of Projects -->
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="images/movie-site-01.png" alt="Movie Trailer Website photo" data-toggle="modal" data-target="#project1">
-							<h2 class="title">Movies</h2>
+							<h2 class="project__title">Movies</h2>
 							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="images/portfolio-02.png" alt="Portfolio" data-toggle="modal" data-target="#project2">
-							<h2 class="title">Portfolio</h2>
+							<h2 class="project__title">Portfolio</h2>
 							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="images/resume-01.png" alt="Portfolio" data-toggle="modal" data-target="#project3">
-							<h2 class="title">Resume</h2>
+							<h2 class="project__title">Resume</h2>
 							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 					</div>
@@ -77,20 +79,20 @@
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="images/rails-app-01.png" alt="Sample App" data-toggle="modal" data-target="#project4">
-							<h2 class="title">Sample App</h2>
+							<h2 class="project__title">Sample App</h2>
 							<p class="git"><a href="https://github.com/mlupin/sample_app">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="images/rock-dodger-01.png" alt="Portfolio" data-toggle="modal" data-target="#project5">
-							<h2 class="title">Rock Dodger</h2>
+							<h2 class="project__title">Rock Dodger</h2>
 							<p class="git"><a href="https://github.com/mlupin/javascript-rock-dodger-bootcamp-prep-000">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 							<img class="image-responsive" src="images/arcade-game-01.png" alt="Portfolio" data-toggle="modal" data-target="#project6">
-							<h2 class="title">Arcade Game</h2>
+							<h2 class="project__title">Arcade Game</h2>
 							<p class="git"><a href="https://github.com/mlupin/frontend-nanodegree-arcade-game">GitHub</a></p>
 						</div>
-					</div>
+					</div>					
 				</section>
 			</main>
 			<div class="row">
@@ -102,7 +104,7 @@
 
 			<!-- Footer -->
 			<footer>
-			    <div id="social" style="text-align: center;">
+			    <div id="social">
 			      <a href="mailto:lupinmarina@gmail.com" class="zocial-gmail">gmail</a>
 			      <a href="https://www.linkedin.com/in/lupinmarina/" class="zocial-linkedin">linkedin</a>
 			      <a href="https://github.com/mlupin" class="zocial-github">github</a>

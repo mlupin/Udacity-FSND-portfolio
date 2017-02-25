@@ -1,0 +1,30 @@
+body {
+  font-size: 14px;
+  line-height:  1.2em;
+}
+
+.about_me, .projects {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.section__title {
+	font-size: auto;
+}
+
+@media screen and (max-width: 610px) {
+  .logo {
+    height: 50%;
+    margin-right: 0.5em;
+    padding: 0.5em;
+  }
+  .section__title, .project__title {
+    margin-left: 0;
+    font-size: 1.5em;
+    vertical-align: bottom; 
+  }
+}
+
+@media screen and (max-width: 850px) {
+  
+}

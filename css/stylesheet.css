@@ -1,3 +1,28 @@
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 2px 2px 2px darkgrey;
+  width: 2em;
+}
+
+.text-muted {
+  color: #2d3x49;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+.black {
+  color: black;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -5,24 +30,13 @@ body {
 }
 
 h2 {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 img {
 	display: block;
   margin: auto;
   max-width: 100%;
-}
-
-.text-muted {
-	color: #2d3x49;
-}
-
-.text-thin {
-	font-weight: 100;
-}
-.black {
-	color: black;
 }
 
 /* Header */
@@ -39,26 +53,26 @@ header hr {
 }
 
 /* About Me Section */
-#about-me {
+.about_me {
 	background: lightgrey;
 	padding: 0;
 	max-width: 100%;
 }
 
-#about-me p {
-	padding: 0 100px 0 100px;
+.about_me p {
+	padding: 0 10px 0 10px;
 }
 /* Projects */
 
-#projects {
+.projects {
 	max-width: 100%;
 }
 
-#project img {
+.project img {
 	text-align: center;
 }
 
-.title, .git {
+.project__title, .git {
 	text-align: center;
 }
 
@@ -69,39 +83,16 @@ header hr {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding: 10px;
-}
 
 
 /* Footer */
-[class*="zocial-"]:before {
-  color: black;
-  display: inline-block;
-  font-family: 'zocial', sans-serif;
-  text-shadow: 2px 2px 2px darkgrey;
-  width: 2em;
-}
-
 a:hover [class*="zocial-"]:before {
  	color: #3d85c6;
 }
 
 footer {
   margin: 0 auto;
-  width: 800px;
+  text-align: center;
 }
 
 div#social a {
@@ -114,20 +105,6 @@ div#social a:last-of-type {
 
 div#social {
   line-height: 2em;
-}
-
-/* Media queries to handle various device widths */
-
-@media only screen and (max-width: 1024px) {
-  
-}
-
-@media only screen and (max-width:900px) {
-  
-}
-
-@media only screen and (max-width: 750px) {
- 
 }
 
 
