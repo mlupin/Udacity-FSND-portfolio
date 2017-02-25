@@ -1,6 +1,7 @@
 html {
 	width: 100%;
 	max-width: 100%;
+	max-height: 100%;
 }
 
 body {
@@ -13,13 +14,12 @@ body {
 	flex-wrap: wrap;
 	
 }
-.section__title {
+.header__title, .section__title, .about__title {
 	font-size: auto;
 }
 
 @media screen and (max-width: 609px) {
-  
-  .project__title, #project .git {
+  .header__title, .project__title, #project .git {
   	display: none;
   }
   .projects img{
@@ -29,14 +29,15 @@ body {
 }
 
 @media screen and (max-width: 610px) {
-
-  
   .logo {
     height: 50%;
     margin-right: 0.5em;
     padding: 0.5em;
   }
-  .section__title, .project__title {
+  .header__title, 
+  .section__title, 
+  .about__title, 
+  .project__title {
     margin-left: 0;
     font-size: 1.5em;
     vertical-align: bottom; 
