@@ -30,7 +30,7 @@ header hr {
   max-width: 100%;
 }
 
-.header__title {
+.header_title {
   text-transform: uppercase;
   font-weight: 100;
   text-align: right;
@@ -50,15 +50,16 @@ header hr {
 	max-width: 100%;
 }
 
-.about__title {
+.about_title {
   text-align: center;
 }
 
 .about_me p {
 	padding: 0 10px 0 10px;
 }
+
 /* Projects */
-.section__title {
+.section_title {
   color: #7d97ad;
   font-weight: 200;
 }
@@ -67,15 +68,11 @@ header hr {
 	max-width: 100%;
 }
 
-.project img {
-	text-align: center;
-}
-
-.project__title {
+.project_title {
   text-transform: uppercase;
 }
 
-.project__title, .git {
+.project_title, .git {
 	text-align: center;
 
 }
@@ -87,7 +84,6 @@ header hr {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
 
 /* Footer */
 a:hover [class*="zocial-"]:before {

@@ -14,12 +14,9 @@ body {
 	flex-wrap: wrap;
 	
 }
-.header__title, .section__title, .about__title {
-	font-size: auto;
-}
 
 @media screen and (max-width: 609px) {
-  .header__title, .project__title, #project .git {
+  .project_title, .git {
   	display: none;
   }
   .projects img{
@@ -34,10 +31,8 @@ body {
     margin-right: 0.5em;
     padding: 0.5em;
   }
-  .header__title, 
-  .section__title, 
-  .about__title, 
-  .project__title {
+  
+  .header_title, .about_title, .section_title, .project_title {
     margin-left: 0;
     font-size: 1.3em;
     vertical-align: bottom; 
