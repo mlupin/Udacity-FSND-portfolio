@@ -22,7 +22,7 @@
 			<header>
 				<div id="header" class="row">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						<img class="logo" src="images/marina.jpg" alt="ML site logo">
+						<img class="logo" src="images_src/marina.jpg" alt="ML site logo">
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right text-uppercase">
 						<h1 class="text-thin section__title">Marina Lupin</h1>
@@ -60,17 +60,29 @@
 					<!-- First Row of Projects -->
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="images/movie-site-01.png" alt="Movie Trailer Website photo" data-toggle="modal" data-target="#project1">
-							<h2 class="project__title">Movies</h2>
+							<picture class="image-responsive" data-toggle="modal" data-target="#project1">
+						        <source media="(min-width: 500px)" srcset="images/movie-site-01-medium.png"/>
+						        <img src="images/movie-site-01-small.png"" 
+						             alt="Movie Trailer Website">
+						    </picture>
+						    <h2 class="project__title">Movies</h2>
 							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="images/portfolio-02.png" alt="Portfolio" data-toggle="modal" data-target="#project2">
+							<picture class="image-responsive" data-toggle="modal" data-target="#project2">
+						        <source media="(min-width: 500px)" srcset="images/portfolio-02-medium.png"/>
+						        <img src="images/portfolio-02-small.png"" 
+						             alt="Portfolio Website">
+						    </picture>
 							<h2 class="project__title">Portfolio</h2>
 							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="images/resume-01.png" alt="Portfolio" data-toggle="modal" data-target="#project3">
+							<picture class="image-responsive" data-toggle="modal" data-target="#project3">
+						        <source media="(min-width: 500px)" srcset="images/resume-01-medium.png"/>
+						        <img src="images/resume-01-small.png"" 
+						             alt="Resume">
+						    </picture>
 							<h2 class="project__title">Resume</h2>
 							<p class="git"><a href="https://github.com/mlupin">GitHub</a></p>
 						</div>
@@ -78,18 +90,30 @@
 					<!-- Second Row of Projects -->
 					<div class="row">
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="images/rails-app-01.png" alt="Sample App" data-toggle="modal" data-target="#project4">
+							<picture class="image-responsive" data-toggle="modal" data-target="#project4">
+						        <source media="(min-width: 500px)" srcset="images/sample-app-01-medium.png"/>
+						        <img src="images/sample-app-01-small.png"" 
+						             alt="Rails Tutorial Sample App">
+						    </picture>
 							<h2 class="project__title">Sample App</h2>
 							<p class="git"><a href="https://github.com/mlupin/sample_app">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="images/rock-dodger-01.png" alt="Portfolio" data-toggle="modal" data-target="#project5">
+							<picture class="image-responsive" data-toggle="modal" data-target="#project5">
+						        <source media="(min-width: 500px)" srcset="images/rock-dodger-02-medium.png"/>
+						        <img src="images/sample-app-02-small.png"" 
+						             alt="JavaScript Rock Dodger Arcade Game">
+						    </picture>
 							<h2 class="project__title">Rock Dodger</h2>
 							<p class="git"><a href="https://github.com/mlupin/javascript-rock-dodger-bootcamp-prep-000">GitHub</a></p>
 						</div>
 						<div id="project" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<img class="image-responsive" src="images/arcade-game-01.png" alt="Portfolio" data-toggle="modal" data-target="#project6">
-							<h2 class="project__title">Arcade Game</h2>
+							<picture class="image-responsive" data-toggle="modal" data-target="#project6">
+						        <source media="(min-width: 500px)" srcset="images/arcade-game-01-medium.png"/>
+						        <img src="images/arcade-game-01-small.png"" 
+						             alt="JavaScript Frogger Arcade Game">
+						    </picture>
+							<h2 class="project__title">Frogger</h2>
 							<p class="git"><a href="https://github.com/mlupin/frontend-nanodegree-arcade-game">GitHub</a></p>
 						</div>
 					</div>					
@@ -130,13 +154,28 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="images/movie-site-01.png" alt="First slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/movie-site-01-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/movie-site-01-medium.png"/>
+									        <img src="images/movie-site-01-small.png"" 
+									             alt="Slide 1: Movie Site Home Page">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/movie-site-02.png" alt="Second slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/movie-site-02-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/movie-site-02-medium.png"/>
+									        <img src="images/movie-site-02-small.png"" 
+									             alt="Slide 2: Movie Site Home Page">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/movie-site-03.png" alt="Third slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/movie-site-03-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/movie-site-03-medium.png"/>
+									        <img src="images/movie-site-03-small.png"" 
+									             alt="Slide 3: Movie Site Home Page">
+									    </picture>
 								    </div>
 								  </div>
 
@@ -179,13 +218,28 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="images/portfolio-01.png" alt="First slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/portfolio-01-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/portfolio-01-medium.png"/>
+									        <img src="images/portfolio-01-small.png"" 
+									             alt="Slide 1: Portfolio Site Home Page">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/portfolio-02.png" alt="Second slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/portfolio-02-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/portfolio-02-medium.png"/>
+									        <img src="images/portfolio-02-small.png"" 
+									             alt="Slide 2: Portfolio Site Home Page">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/portfolio-03.png" alt="Third slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/portfolio-03-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/portfolio-03-medium.png"/>
+									        <img src="images/portfolio-03-small.png"" 
+									             alt="Slide 3: Portfolio Site Modal View">
+									    </picture>
 								    </div>
 								  </div>
 
@@ -228,13 +282,28 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="images/resume-01.png" alt="First slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/resume-01-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/resume-01-medium.png"/>
+									        <img src="images/resume-01-small.png"" 
+									             alt="Slide 1: Resume Home Page with contact info and work experience">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/resume-02.png" alt="Second slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/resume-02-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/resume-02-medium.png"/>
+									        <img src="images/resume-02-small.png"" 
+									             alt="Slide 2: Resume Home Page with list of projects">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/resume-03.png" alt="Third slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/resume-03-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/resume-03-medium.png"/>
+									        <img src="images/resume-03-small.png"" 
+									             alt="Slide 3: Resume Home Page with education listed and footer">
+									    </picture>
 								    </div>
 								  </div>
 
@@ -278,16 +347,36 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="images/sample-app-01.png" alt="First slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/sample-app-01-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/sample-app-01-medium.png"/>
+									        <img src="images/sample-app-01-small.png"" 
+									             alt="Slide 1: Rails Toturial Sample App Home Page">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/sample-app-02.png" alt="Second slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/sample-app-02-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/sample-app-02-medium.png"/>
+									        <img src="images/sample-app-02-small.png"" 
+									             alt="Slide 2: Rails Toturial Sample App Sign Up Page">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/sample-app-03.png" alt="Third slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/sample-app-03-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/sample-app-03-medium.png"/>
+									        <img src="images/sample-app-03-small.png"" 
+									             alt="Slide 3: Rails Toturial Sample App another user's page with microposts">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/sample-app-04.png" alt="Fourth slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/sample-app-04-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/sample-app-04-medium.png"/>
+									        <img src="images/sample-app-04-small.png"" 
+									             alt="Slide 4: Rails Toturial Sample App personal Page with first micropost">
+									    </picture>
 								    </div>
 								  </div>
 
@@ -330,13 +419,28 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="images/rock-dodger-01.png" alt="First slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/rock-dodger-01-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/rock-dodger-01-medium.png"/>
+									        <img src="images/rock-dodger-01-small.png"" 
+									             alt="Slide 1: Rock Dodger Game-Start">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/rock-dodger-02.png" alt="Second slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/rock-dodger-02-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/rock-dodger-02-medium.png"/>
+									        <img src="images/rock-dodger-02-small.png"" 
+									             alt="Slide 2: Rock Dodger Game-During game with falling rocks">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/rock-dodger-03.png" alt="Third slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/rock-dodger-03-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/rock-dodger-03-medium.png"/>
+									        <img src="images/rock-dodger-03-small.png"" 
+									             alt="Slide 3: Rock Dodger Game-End of Gaame">
+									    </picture>
 								    </div>
 								  </div>
 
@@ -380,10 +484,20 @@
 								  <!-- Wrapper for slides -->
 								  <div class="carousel-inner">
 								    <div class="item active">
-								      <img class="responsive-image" src="images/arcade-game-01.png" alt="First slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/arcade-game-01-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/arcade-game-01-medium.png"/>
+									        <img src="images/arcade-game-01-small.png"" 
+									             alt="Slide 1: Frogger Game">
+									    </picture>
 								    </div>
 								    <div class="item">
-								      <img class="responsive-image" src="images/arcade-game-02.png" alt="Second slide">
+								      <picture class="image-responsive">
+									        <source media="(min-width: 750px)" srcset="images/arcade-game-02-large.png"/>
+									        <source media="(min-width: 500px)" srcset="images/arcade-game-02-medium.png"/>
+									        <img src="images/arcade-game-02-small.png"" 
+									             alt="Slide 2: Frogger Game">
+									    </picture>
 								    </div>
 								  </div>
 
