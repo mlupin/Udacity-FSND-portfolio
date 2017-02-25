@@ -1,3 +1,8 @@
+html {
+	width: 100%;
+	max-width: 100%;
+}
+
 body {
   font-size: 14px;
   line-height:  1.2em;
@@ -12,7 +17,20 @@ body {
 	font-size: auto;
 }
 
+@media screen and (max-width: 609px) {
+  
+  .project__title, #project .git {
+  	display: none;
+  }
+  .projects img{
+  	flex-flow: column wrap;
+  	padding: 5px 5px 5px 5px ;
+  }
+}
+
 @media screen and (max-width: 610px) {
+
+  
   .logo {
     height: 50%;
     margin-right: 0.5em;
@@ -23,8 +41,4 @@ body {
     font-size: 1.5em;
     vertical-align: bottom; 
   }
-}
-
-@media screen and (max-width: 850px) {
-  
 }
