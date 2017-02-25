@@ -71,8 +71,13 @@ header hr {
 	text-align: center;
 }
 
+.project__title {
+  text-transform: uppercase;
+}
+
 .project__title, .git {
 	text-align: center;
+
 }
 
 .image-responsive:hover {
