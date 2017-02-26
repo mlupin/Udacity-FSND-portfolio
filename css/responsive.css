@@ -9,8 +9,14 @@ body {
     line-height:  1.2em;
 }
 
+img {
+    transition: width 0.5s;
+
+}
 
 @media screen and (max-width: 609px) {
+
+
     .header-name {
         font-size: 1.5em;
     }
